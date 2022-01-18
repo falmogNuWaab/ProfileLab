@@ -1,0 +1,6 @@
+<div id='editForm'>
+<p>Name: <br/><input type="text" id="name" name="name" value="{{editProfile.name}}"></p>
+<p>Contact Info: <br/> <input type="text" id="contactInfo" name="contactInfo" value={{editProfile.contactInfo}} rows=10 cols=10></p>
+<p>Bio: <br/><textarea id="bio" name="bio" value="{{editProfile.bio}}"></textarea></p>
+<button (click)="updateProfile()">Update Profile</button>
+</div>
